@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>D3 HW2</title>
+	<!-- Always include D3 first. -->
+	<script src="http://d3js.org/d3.v3.min.js"></script>
+	<!-- Include main.js, which is where all our code lives -->
+	<script src="main.js"></script>
+	<!-- Include any styles we want to add to our page -->
+	<link rel="stylesheet" href="styles.css">
+</head>
+	<body>
+		<h1>Course GPA</h1>
+		<!-- Our graph will be added inside this divider element -->
+		<div id="graph"></div>
+		<form>
+	 		Input GPA (0.00 - 4.00): <input id="gpa" type="number" name="gpa" min="0.00" max="4.00">
+	 		Select Department:
+	 		<select id="DEPT">
+ 			<option value="ALL">ALL</option>
+	  		<option value="CHEM">CHEM</option>
+	  		<option value="CS">CS</option>
+	  		<option value="ENGL">ENGL</option>
+	  		<option value="HTS">HTS</option>
+	  		<option value="MATH">MATH</option>
+	  		<option value="MGT">MGT</option>
+	  		<option value="PHYS">PHYS</option>
+	  		<option value="PSYC">PSYC</option>
+			</select>
+		</form>
+	</body>
+</html>

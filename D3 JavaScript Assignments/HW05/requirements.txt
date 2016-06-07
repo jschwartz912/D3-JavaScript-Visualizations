@@ -1,0 +1,23 @@
+This homework assignment is relatively simple. You will make modifications to the code from the Introduction to D3 lecture. This will help you gain familiarity and a stronger grasp on D3.
+
+This assignment requires you to –
+(1) Read data from the provided CSV file instead of a JSON file
+(2) Draw a bar chart for the provided hypothetical data using D3
+
+Here are a few specifics that you need to work on –
+(1) Make the SVG background color #cfcfcf
+(2) Adding the following style conditions for the SVG rectangles.
+If the average GPA is less than 1, make the rectangle red.
+If the average GPA is 1 or more, but less than 2, make the rectangle orange.
+If the average GPA is 2 or more, but less than 3, make the rectangle yellow.
+If the average GPA is 3 or more, but less than 4 make the rectangle blue.
+If the average GPA is 4 or more, make the rectangle gold.
+
+(3) Adding the following style conditions to the bar text labels.
+If the average GPA is less than 1, make the bar label’s color white.
+If the average GPA is 1 or more, but less than 2, make the bar label’s color black.
+If the average GPA is 2 or more, but less than 3, make the bar label’s color black.
+If the average GPA is 3 or more, but less than 4 make the bar label’s color gold.
+If the average GPA is 4 or more, make the bar label’s color black.
+
+(4) Add black borders to the rectangles
